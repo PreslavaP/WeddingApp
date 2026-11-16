@@ -48,4 +48,9 @@ public class Family implements SeatingComponent {
             m.printDetails(indent + "  ");
         }
     }
+
+    @Override
+    public String toString() {
+        return familyName;
+    }
 }

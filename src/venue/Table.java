@@ -34,4 +34,9 @@ public class Table {
 
         return total;
     }
+
+    @Override
+    public String toString() {
+        return "Table " + tableNumber;
+    }
 }

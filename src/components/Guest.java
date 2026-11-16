@@ -21,4 +21,9 @@ public class Guest implements SeatingComponent {
     public void printDetails(String indent) {
         System.out.println(indent + "- Guest: " + guestName);
     }
+
+    @Override
+    public String toString() {
+        return guestName;
+    }
 }
